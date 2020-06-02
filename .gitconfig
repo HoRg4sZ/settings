@@ -1,0 +1,17 @@
+  
+[user]
+	email = mszekely@itron.com
+	name = Miklos Szekely
+[alias]
+	co = checkout
+    cob = checkout -b
+	com = checkout master
+	rbm = rebase master
+	br = branch
+	ci = commit -m
+	st = status
+	ff = fetch
+	adu = add -u
+	df = diff --color-words
+	chuck = !git add -u && git commit --amend --no-edit && git push -f
+	trigger = !git commit --amend --no-edit && git push -f
